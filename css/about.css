@@ -1,0 +1,36 @@
+
+.about-pic{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.picture {
+  border-radius: 1000px;
+  height: 300px;
+}
+
+.statement-wrapper{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0px 80px 40px 80px;
+}
+.bio-statement {
+  font-family: "Lora", Sans-serif;
+  font-size: 23px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.bio {
+  padding: 30px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-text{
+  font-size: 16px;
+  color: #7a7a7a;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0em;
+  font-family: "Quicksand";
+}

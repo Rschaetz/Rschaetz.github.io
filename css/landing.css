@@ -1,0 +1,99 @@
+.header {
+  padding: 20px 70px;
+}
+
+.header .log0 {
+  max-width: 150px;
+  max-height: 35px;
+}
+
+.main-section {
+  background-image: url("../images/cave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.main-wrapper{
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 20px;
+}
+
+.title, .title_1 {
+  font-size: 40px;
+}
+.title_1{
+  margin-bottom: 20px;
+}
+
+.title_2 {
+  color: #f66e5e;
+}
+.subtitle {
+  color: rgba(0,0,0,0.34);
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.title-content {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mid-section{
+  padding: 0px 40px 40px 40px;
+
+}
+.img-wrapper{
+  align-items: center;
+  justify-content: center
+}
+.branch-img {
+  width: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.mid-title{
+  font-size: 23px;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+  font-family: "Lora", Sans-serif;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-section {
+    padding: 60px;
+  }
+  .main-wrapper{
+    padding: 70px 90px;
+  }
+  .title, .title_1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-section {
+    padding: 160px 0;
+  }
+  .main-wrapper{
+    padding: 70px 90px;
+    width: 40%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main-wrapper{
+    margin-left: 20px;
+  }
+}
