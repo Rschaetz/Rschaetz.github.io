@@ -29,7 +29,7 @@
 
     <section class="main-section">
       <div class="main-navigation flex-box content-space-between items-center">
-        <img src="./images/logo.png" alt="" class="logo">
+        <img src="./images/logo.png" alt="" class="logo" id='logo-img'>
           <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_open" style="outline: none;">
             <span class="slicknav_icon slicknav_no-text">
               <span class="slicknav_icon-bar"></span>
@@ -39,12 +39,12 @@
           </a>
           <ul class="nav-items">
             <li class="nav-item">
-              <a href="#" class="item current-item">
+              <a href="#" class="current-item main-item">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="item inactive">
+              <a href="#" class="inactive main-item">
                 Kategorien
                 <i class="fa fa-chevron-down"></i>
               </a>
@@ -66,12 +66,12 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="item">
+              <a href="about.html" class="main-item">
                 Über mich
               </a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="item">
+              <a href="contact.html" class="main-item">
                 Kontakt
               </a>
             </li>
@@ -107,10 +107,12 @@
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         if($(this).scrollTop() > $nav.height()) {
           $(".item-link").css("color", '#484848')
-          $(".item").css("color", '#484848')
+          $(".main-item").css("color", '#484848')
+          // document.getElementById('logo-img').src="./images/logo.png";
         } else {
           $(".item-link").css("color", 'white')
-          $(".item").css("color", 'white')
+          $(".main-item").css("color", 'white')
+          $("img.logo").replaceWith('<img src="./images/logo-alt.png" alt="" class="logo-alt">')
         }
       });
     });
