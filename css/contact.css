@@ -1,5 +1,6 @@
 .category .section-item{
-  width: 100%
+  width: 100%;
+  text-align: center;
 }
 
 .contact-title {
@@ -10,6 +11,7 @@
 
 .icon{
   width: 50px;
+  margin: 0 auto;
 }
 
 .email {
@@ -57,7 +59,7 @@
   font-weight: 600;
 }
 
-.social-link:hover{
+.social-link:hover, .social-link::selection{
   background-color: #f66e5e;
   color: white;
 }
