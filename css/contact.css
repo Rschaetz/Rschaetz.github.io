@@ -1,0 +1,63 @@
+.category .section-item{
+  width: 100%
+}
+
+.contact-title {
+  font-family: "Fanwood Text";
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.icon{
+  width: 50px;
+}
+
+.email {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Quicksand";
+}
+
+.follow-me {
+  text-align: center;
+  font-family: "Fanwood Text";
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.divider {
+  border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #d8d8d8;
+    width: 100%;
+    position: relative;
+}
+
+.contact-icon{
+  width: 85px;
+  position: absolute;
+    top: -40px;
+    left: 50%;
+}
+
+.social-link{
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 15px 0;
+  background-color: #fff;
+  width: 55px;
+  height: 55px;
+  font-size: 18px;
+  line-height: 55px;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 3px 10px -7px rgba(0, 0, 0, 0.3);
+  color: #a2a2a2;
+  font-weight: 600;
+}
+
+.social-link:hover{
+  background-color: #f66e5e;
+  color: white;
+}
