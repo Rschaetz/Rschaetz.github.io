@@ -164,6 +164,11 @@
   flex: 0.75;
 }
 
+.text-align{
+  text-align: center;
+  text-align: -webkit-center;
+}
+
 .flex-row {
   -o-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
