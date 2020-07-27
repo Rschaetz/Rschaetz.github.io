@@ -1,16 +1,11 @@
 .cat-image-wrapper {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 140px;
-}
-
-
-.cat-image-wrapper {
   min-height: 60vh;
   margin-left: auto;
   margin-right: auto;
-  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
 }
 .cat-title{
   font-size: 40px;
@@ -152,6 +147,9 @@
 
 
 @media only screen and (min-width: 768px) {
+  .cat-image-wrapper {
+    margin-bottom: 140px;
+  }
   .cat-title {
     font-size: 54px;
   }
