@@ -145,6 +145,29 @@
   background-image: url('./../images/explorers.jpg');
 }
 
+.decor-leaf {
+  position: absolute;
+  bottom: -16px;
+  width: 86px;
+  right: -24px;
+}
+
+.decor-leaves-branch {
+  position: absolute;
+  bottom: -177px;
+  width: 206px;
+  left: 211px;
+  z-index: -1;
+}
+
+.decor-dark{
+  position: absolute;
+  width: 86px;
+  bottom: -110px;
+  left: 450px;
+  z-index: -1;
+}
+
 
 @media only screen and (min-width: 768px) {
   .cat-image-wrapper {
@@ -186,6 +209,20 @@
   }
   .cat {
     margin-right: 20px
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .decor {
+    background-image: url("../images/black-white.png");
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 0px 0px 0px 0px;
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: 380px auto;
   }
 }
 
