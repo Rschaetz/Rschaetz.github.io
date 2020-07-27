@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSource+Sans+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CQuicksand%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2.6" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fanwood+Text%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2.6" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CFanwood+Text%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7C&amp;ver=1.0" type="text/css" media="all">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   </head>
   <body>
@@ -31,53 +32,83 @@
     <section class="main-section">
       <div class="main-navigation flex-box content-space-between items-center">
         <img src="./images/logo.png" alt="" class="logo" id='logo-img'>
-          <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_open" style="outline: none;">
-            <span class="slicknav_icon slicknav_no-text">
-              <span class="slicknav_icon-bar"></span>
-              <span class="slicknav_icon-bar"></span>
-              <span class="slicknav_icon-bar"></span>
-            </span>
-          </a>
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="#" class="current-item main-item">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="inactive main-item">
-                Kategorien
-                <i class="fa fa-chevron-down"></i>
-              </a>
-              <ul class="sub-menu">
-                <li class="sub-menu-item">
-                  <a href="categories.html" class="sub-menu-link">Alle Kategorien</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="poems.html" class="sub-menu-link">Gedichte</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="speaches.html" class="sub-menu-link">Reden</a>
-                 
-                </li>
-                <li class="sub-menu-item">
-                  <a href="stories.html" class="sub-menu-link">Geschichten</a>
-                 
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a href="about.html" class="main-item">
-                Über mich
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="main-item">
-                Kontakt
-              </a>
-            </li>
-          </ul>
+        <div class="menu-container">
+          <div class="menu">
+            <a href="#" class="logo">
+              <img src="images/logo-alt.png" alt="" class="logo-mob">
+            </a>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#">
+                  Kategorien
+                  <i class="fa fa-chevron-down menu-dropdown-icon"></i>
+                </a>
+                <ul>
+                  <li>
+                    <a href="categories.html">Alle Kategorien</a>
+                  </li>
+                  <li>
+                    <a href="poems.html">Gedichte</a>
+                  </li>
+                  <li>
+                    <a href="speaches.html">Reden</a>
+                  </li>
+                  <li>
+                    <a href="stories.html">Geschichten</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="about.html">Über mich</a>
+              </li>
+              <li>
+                <a href="contact.html">Kontact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#" class="current-item main-item">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="inactive main-item">
+              Kategorien
+              <i class="fa fa-chevron-down"></i>
+            </a>
+            <ul class="sub-menu">
+              <li class="sub-menu-item">
+                <a href="categories.html" class="sub-menu-link">Alle Kategorien</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="poems.html" class="sub-menu-link">Gedichte</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="speaches.html" class="sub-menu-link">Reden</a>
+                
+              </li>
+              <li class="sub-menu-item">
+                <a href="stories.html" class="sub-menu-link">Geschichten</a>
+                
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="main-item">
+              Über mich
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="main-item">
+              Kontakt
+            </a>
+          </li>
+        </ul>
       </div>
+      
       <div class="main-wrapper">
         <div class="title">Hallo</div>
         <div class="title_1">Ich bin
@@ -117,6 +148,32 @@
         }
       });
     });
+
+    $(document).ready(function() {
+		  "use strict";
+		  $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+		  $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
+		  $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">&nbsp;</a>");
+		  $(".menu > ul > li").hover(function(e) {
+		    if ($(window).width() > 943) {
+		      $(this).children("ul").stop(true, false).fadeToggle(150);
+		      e.preventDefault();
+		    }
+		  });
+		  $(".menu > ul > li").click(function() {
+		    if ($(window).width() <= 943) {
+		      $(this).children("ul").fadeToggle(150);
+		    }
+		  });
+		  $(".menu-mobile").click(function(e) {
+		    $(".menu > ul").toggleClass('show-on-mobile');
+		    e.preventDefault();
+		  });
+		});
+		$(window).resize(function() {
+		  $(".menu > ul > li").children("ul").hide();
+		  $(".menu > ul").removeClass('show-on-mobile');
+		});
     </script>
   </body>
 </html>

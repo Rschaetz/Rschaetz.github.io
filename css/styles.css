@@ -8,14 +8,13 @@ html {
   -moz-box-sizing: inherit;
 }
 
-/* body, html {
-  height: 100%;
-} */
-
 body{
   margin: 0;
   font-family: 'Fanwood Text', serif;
   background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  font-variant-ligatures: no-common-ligatures;
 }
 
 ul {
