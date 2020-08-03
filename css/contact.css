@@ -21,6 +21,26 @@
   font-family: "Quicksand";
 }
 
+.follow-container {
+  position: relative;
+  background-image: url("../images/shadow.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 16px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-background-overlay{
+  background-color: #fafafa;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
 .follow-me {
   text-align: center;
   font-family: "Fanwood Text";
@@ -28,26 +48,35 @@
   font-weight: 400;
 }
 
+.widget-container {
+  padding: 30px
+}
+
 .divider {
   border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: #d8d8d8;
-    width: 100%;
-    position: relative;
+  border-top-width: 1px;
+  border-top-color: #d8d8d8;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.divider-widget{
+  margin: 0px 0px -35px 0px;
+  text-align: center;
 }
 
 .contact-icon{
   width: 85px;
-  position: absolute;
-    top: -40px;
-    left: 50%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .social-link{
   position: relative;
   display: inline-block;
   margin: 0 10px 15px 0;
-  background-color: #fff;
+  background-color: transparent;
   width: 55px;
   height: 55px;
   font-size: 18px;
@@ -62,4 +91,28 @@
 .social-link:hover, .social-link::selection{
   background-color: #f66e5e;
   color: white;
+}
+
+.contact-details {
+  font-size: 18px;
+  font-family: "Quicksand";
+  text-align: center;
+  font-weight: 400;
+  color: #7a7a7a;
+  margin: 30px 10px 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-details{
+    /* margin: 10px 12px 25px; */
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+
+  .widget-container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
 }
