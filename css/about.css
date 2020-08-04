@@ -1,7 +1,8 @@
 
 .about-pic{
   text-align: center;
-  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .picture {
@@ -12,12 +13,12 @@
 .statement-wrapper{
   margin: 0 auto;
   max-width: 800px;
-  padding: 0px 80px 40px 80px;
+  padding: 0 80px 0 80px;
 }
 .bio-statement {
   font-family: "Lora", Sans-serif;
   font-size: 23px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #000000;
 }
 
