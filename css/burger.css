@@ -2,6 +2,7 @@
 .menu {
 	width: 100%;
 	background-color: white;
+	position: fixed;
 }
 .menu-container {
 margin: 0 auto;

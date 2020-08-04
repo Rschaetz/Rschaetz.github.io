@@ -30,6 +30,9 @@
     left: 0;
     z-index:1
   }
+  .is-nav-offset{
+    display: none;
+  }
   .logo, .logo-alt{ 
     display: block;
     padding-left: 10px;
