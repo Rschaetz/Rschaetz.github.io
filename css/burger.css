@@ -3,6 +3,7 @@
 	width: 100%;
 	background-color: white;
 	position: fixed;
+	z-index: 2;
 }
 .menu-container {
 margin: 0 auto;
