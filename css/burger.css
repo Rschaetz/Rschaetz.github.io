@@ -110,9 +110,9 @@
   transition:all .2s ease-out;
 }
 
-/* .mainNav > ul > li > .node {
+.mainNav > ul > li > .node {
   padding:0px 20px;
-} */
+}
 
 .mainNav > ul > li ul > li > .node {
   line-height:0px;
