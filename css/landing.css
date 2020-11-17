@@ -80,6 +80,9 @@
   .title, .title_1 {
     font-size: 60px;
   }
+  .title-content{
+    font-size: 26px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {

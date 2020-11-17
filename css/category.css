@@ -62,7 +62,6 @@
 }
 
 .category-image{
-  /* background-image: url('./../images/fantasy.jpg'); */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,11 +132,11 @@
   background-image: url('./../images/castle-path.jpg');
 }
 
-.speaches {
+.speeches {
   background-image: url('./../images/castle2.jpg');
 }
 
-.speaches-alt {
+.speeches-alt {
   background-image: url('./../images/horizon.jpg');
 }
 
@@ -171,7 +170,7 @@
 
 @media only screen and (min-width: 768px) {
   .cat-image-wrapper {
-    margin-bottom: 140px;
+    margin-bottom: 40px;
   }
   .cat-title {
     font-size: 54px;

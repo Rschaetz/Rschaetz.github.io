@@ -20,9 +20,8 @@
     <link rel="stylesheet" href="./css/flex.css" type="text/css">
     <link rel="stylesheet" href="./css/category.css" type="text/css">
     <link rel="stylesheet" href="./css/dropdown.css" type="text/css">
-    <link rel="stylesheet" href="./css/contact.css" type="text/css">
     <link rel="stylesheet" href="./css/burger.css" type="text/css">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSource+Sans+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CQuicksand%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2.6" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fanwood+Text%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2.6" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CFanwood+Text%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7C&amp;ver=1.0" type="text/css" media="all">
@@ -30,6 +29,8 @@
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   </head>
   <body>
+
+
     <header id="siteheader">
       <div id="siteNav" class="siteNav-wrapper">
         <div class="flex-box content-space-between burger-wrapper items-center">
@@ -107,7 +108,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="item">
+            <a href="#" class="item current-item inactive">
               Kategorien
               <i class="fa fa-chevron-down"></i>
             </a>
@@ -119,7 +120,7 @@
                 <a href="poems.html" class="sub-menu-link">Gedichte</a>
               </li>
               <li class="sub-menu-item">
-                <a href="speeches.html" class="sub-menu-link">Reden</a>
+                <a href="#" class="sub-menu-link inactive">Reden</a>
               </li>
               <li class="sub-menu-item last-child">
                 <a href="stories.html" class="sub-menu-link">Geschichten</a>
@@ -185,7 +186,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="item current-item">
+            <a href="contact.html" class="item">
               Kontakt
             </a>
           </li>
@@ -195,74 +196,38 @@
     <div class="breaker"></div>
     <div class="is-nav-offset" style="margin-top: 75px;"></div>
     
-    <section class="cat-image-wrapper contact flex-column content-center flex-box">
+    <section class="cat-image-wrapper speech-top flex-column content-center flex-box">
       <div class="titles-wrapper items-start">
-        <div class="cat-title">Kontakt</div>
-        <div class="cat-subtitle"></div>
+        <div class="cat-title">Reden</div>
+        <div class="cat-subtitle">Auf Anfrage kannst du mich als Laudator buchen</div>
       </div>
     </section>
-
-    <h2 class="contact-details">
-      Für alle weiteren Fragen wie Preise und Lieferzeiten lass mir einfach eine Email zukommen
-    </h2>
 
     <section class="category">
-      <div class="section-item text-align">
-        <div class="icon">
-          <svg id="icon-svg-email" viewBox="0 0 512 512"><path d="M486.4 59.733H25.6c-14.138 0-25.6 11.461-25.6 25.6v341.333c0 14.138 11.461 25.6 25.6 25.6h460.8c14.138 0 25.6-11.461 25.6-25.6V85.333c0-14.138-11.461-25.6-25.6-25.6zm8.533 366.934a8.533 8.533 0 0 1-8.533 8.533H25.6a8.533 8.533 0 0 1-8.533-8.533V85.333A8.533 8.533 0 0 1 25.6 76.8h460.8a8.533 8.533 0 0 1 8.533 8.533v341.334z"></path><path d="M470.076 93.898a8.53 8.53 0 0 0-6.229 1.966L266.982 261.239a17.068 17.068 0 0 1-21.965 0L48.154 95.863a8.535 8.535 0 0 0-10.974 13.073l196.864 165.367c12.688 10.683 31.224 10.683 43.913 0L474.82 108.937a8.532 8.532 0 0 0 1.049-12.023 8.524 8.524 0 0 0-5.793-3.016zM164.124 273.13a8.535 8.535 0 0 0-8.229 2.65l-119.467 128a8.532 8.532 0 1 0 12.476 11.639l119.467-128a8.532 8.532 0 0 0-4.247-14.289zM356.105 275.78a8.534 8.534 0 1 0-12.476 11.639l119.467 128a8.533 8.533 0 1 0 12.476-11.64L356.105 275.78z"></path></svg>
-        </div>
-        <h3 class="contact-title">Email</h3>
-        <h6 class="email">iwriteyourstories@gmail.com</h6>
-      </div>
-    </section>
-
-    <section class="widget-container">
-      <div class="divider-widget">
-        <img src="./images/leaf.png" alt="" class="contact-icon">
-      </div>
-      <div class="divider"></div>
-    </section>
-
-    
-
-    <section class="follow-container">
-      <div class="elementor-background-overlay"></div>
-      <h3 class="follow-me">Folge mir</h3>
-      <div style="text-align: center;">
+      <div class="category-wrapper cat">
+        <div class="category-content">
+          Die Auswahl ist groß und ich freue mich,
+          deine personalisierte, auf alle Bedürfnisse
+          abgestimmte Rede für das bevorstehende Ereignis
+          zu verfassen.
+        </br>
+        </br>
+          Zahlreiche Anlässe bieten sich bestens dafür an:
+        </br>
+          Hochzeit, Geburtstag, Jubiläum, Eröffnung, Weihnachten, Muttertag, Vatertag,
+          Heiratsantrag, Hochzeitstag, Valentinstag, Beerdigung,
+          Jahrestag, Taufe, Kommunion/Konfirmation, Einschulung
         
-        <div class="section-item">
-          
-          <h3 class="contact-title">Twitter</h3>
-          <a href="https://twitter.com/iwriteyourstor1" class="social-link" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
-        <div class="section-item">
-          <h3 class="contact-title">Instagram</h3>
-          <a  href="https://www.instagram.com/i_write_your_story/"
-              class="social-link"
-              target="_blank"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-        </div>
-        <div class="section-item">
-          <h3 class="contact-title">Facebook</h3>
-          <a  href="https://www.facebook.com/I-Write-Your-Story-111264060676007"
-              class="social-link"
-              target="_blank"
-          >
-          <i class="fab fa-facebook-f"></i>
-          </a>
         </div>
       </div>
+      <div class="category-image speeches-alt"></div>
     </section>
 
     <p class="footer"> &copy; 2020 IWriteYourStory.de</p>
     <p class="footer" style="font-size: 14px;"> Created by:
       <a class="footer" style="font-size: 14px;" href="mailto:web.amoni@gmail.com">Amoni</a>
     </p>
-
+    
     <script src="js/burger.js"></script>
   </body>
 </html>

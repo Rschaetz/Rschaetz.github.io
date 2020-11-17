@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>I Write Your Story</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link rel="icon" type="image/png" href="./../images/favicon.png">
+
+		<script src="https://kit.fontawesome.com/8e4240cc0d.js" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="./../css/styles.css" type="text/css">
+		<link rel="stylesheet" href="./../css/landing.css" type="text/css">
+		<link rel="stylesheet" href="./../css/main-navigation.css" type="text/css">
+		<link rel="stylesheet" href="./../css/flex.css" type="text/css">
+		<link rel="stylesheet" href="./../css/category.css" type="text/css">
+		<link rel="stylesheet" href="./../css/dropdown.css" type="text/css">
+    <link rel="stylesheet" href="./../css/burger.css" type="text/css">
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSource+Sans+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CQuicksand%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2.6" type="text/css" media="all">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fanwood+Text%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2.6" type="text/css" media="all">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CFanwood+Text%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7C&amp;ver=1.0" type="text/css" media="all">
+
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	</head>
+	<body>
+		<header id="siteheader">
+      <div id="siteNav" class="siteNav-wrapper">
+        <div class="flex-box content-space-between burger-wrapper items-center">
+          <div class="">
+            <a href="index.html" class="">
+              <img src="../images/logo-alt.png" alt="">
+            </a>
+          </div>
+          <button id="mainNavBurger" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <nav class="mainNav">
+          <ul>
+            <li>
+              <a class="node" href="../index.html">Home</a>
+            </li>
+            <li>
+              <a class="node toggle" href="#">Kategorien</a>
+              <ul>
+                <li><a href="../categories.html" class="node">Alle Kategorien</a></li>
+                <li><a href="../poems.html" class="node">Gedichte</a></li>
+                <li><a href="../speeches.html" class="node">Reden</a></li>
+                <li><a href="../stories.html"class="node">Geschichten</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="node toggle" href="#">Tauche ein</a>
+              <ul>
+                <li><a href="#" class="node toggle">Gedichte</a>
+                  <ul>
+                    <li><a href="../poems_samples/Glaube.html" class="node">Glaube</a></li>
+                    <li><a href="../poems_samples/Liebe.html" class="node">Liebe</a></li>
+                    <li><a href="../poems_samples/The_Compass_of_the_Heart.html" class="node">The Compass of the Heart</a></li>
+                    <li><a href="../poems_samples/Hoffnung.html" class="node">Hoffnung</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="node toggle">Reden</a>
+                  <ul>
+                    <li><a href="../speeches_samples/Hochzeitsrede.html" class="node">Hochzeitsrede</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="node toggle">Geschichten</a>
+                  <ul>
+                    <li><a href="./Rendezvous_in_Athen.html" class="node">Rendezvous in Athen</a></li>
+                    <li><a href="./Marlene_und_das_Geheimnis_des_Brombeerstrauchs.html" class="node">Marlene und das Geheimnis des Brombeerstrauchs</a></li>
+                    <li><a href="./Melina.html" class="node">Melina</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="node toggle">Geschichten für Kinder</a>
+                  <ul>
+                    <li><a href="../kids_stories_samples/Die_Ostertradiotion.html" class="node">Die Ostertradiotion</a></li>
+                    <li><a href="../kids_stories_samples/Fliegen_Drachen_auch_bei_Nebel.html" class="node">Fliegen Drachen auch bei Nebel</a></li>
+                    <li><a href="../kids_stories_samples/Im_Rudel_schläft_es_sich_halt_am_besten.html" class="node">Im Rudel schläft es sich halt am besten</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            
+            <li><a class="node" href="../about.html">Über mich</a></li>            
+            <li><a class="node" href="../contact.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-navigation items-end flex-box content-space-between items-center flex-wrap" style="background-color: white;">
+        <a href="../index.html">
+          <img src="../images/logo-alt.png" alt="" class="logo">
+        </a>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="../index.html" class="item">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="item">
+              Kategorien
+              <i class="fa fa-chevron-down"></i>
+            </a>
+            <ul class="sub-menu">
+              <li class="sub-menu-item">
+                <a href="../categories.html" class="sub-menu-link">Alle Kategorien</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="../poems.html" class="sub-menu-link">Gedichte</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="../speeches.html" class="sub-menu-link">Reden</a>
+              </li>
+              <li class="sub-menu-item last-child">
+                <a href="../stories.html" class="sub-menu-link inactive">Geschichten</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="item current-item inactive">
+              Tauche ein
+              <i class="fa fa-chevron-down"></i>
+            </a>
+            <ul class="sub-menu">
+              <li class="sub-menu-item sample-link">
+                <a href="#" class="sub-menu-link">Gedichte</a>
+                <ul class="samples">
+                  <li class="sub-menu-item"><a href="../poems_samples/Glaube.html" class="sub-menu-link">Glaube</a></li>
+                  <li class="sub-menu-item"><a href="../poems_samples/Liebe.html" class="sub-menu-link">Liebe</a></li>
+                  <li class="sub-menu-item"><a href="../poems_samples/The_Compass_of_the_Heart.html" class="sub-menu-link">The Compass of the Heart</a></li>
+                  <li class="sub-menu-item"><a href="../poems_samples/Hoffnung.html" class="sub-menu-link">Hoffnung</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu-item sample-link">
+                <a href="#" class="sub-menu-link">Reden</a>
+                <ul class="samples">
+                  <li class="sub-menu-item"><a href="../speeches_samples/Hochzeitsrede.html" class="sub-menu-link">Hochzeitsrede</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu-item sample-link">
+                <a href="#" class="sub-menu-link">Geschichten</a>
+                <ul class="samples">
+                  <li class="sub-menu-item">
+                    <a href="./Rendezvous_in_Athen.html" class="sub-menu-link">Rendezvous in Athen</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="./Marlene_und_das_Geheimnis_des_Brombeerstrauchs.html" class="sub-menu-link">Marlene und das Geheimnis des Brombeerstrauchs</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="./Melina.html" class="sub-menu-link">Melina</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-menu-item sample-link">
+                <a href="#" class="sub-menu-link">Geschichten für Kinder</a>
+                <ul class="samples">
+                  <li class="sub-menu-item">
+                    <a href="../kids_stories_samples/Die_Ostertradiotion.html" class="sub-menu-link">
+                      Die Ostertradiotion
+                    </a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="../kids_stories_samples/Fliegen_Drachen_auch_bei_Nebel.html" class="sub-menu-link">Fliegen Drachen auch bei Nebel</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="../kids_stories_samples/Im_Rudel_schläft_es_sich_halt_am_besten.html" class="sub-menu-link">Im Rudel schläft es sich halt am besten</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="../about.html" class="item">
+              Über mich
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../contact.html" class="item">
+              Kontakt
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="breaker"></div>
+    <div class="is-nav-offset" style="margin-top: 75px;"></div>
+
+    <section class="cat-image-wrapper stories flex-column content-center flex-box">
+      <div class="titles-wrapper items-start">
+        <div class="cat-title">Rendezvous in Athen</div>
+      </div>
+    </section>
+
+    <div class="img-wrapper">
+      <img src="../images/branch.png" alt="" class="branch-img">
+    </div>
+
+    <section class="category">
+      <div class="text">
+        6.45 Uhr.
+        <br/>
+        <br/>
+        Der Flieger war zum Abflug bereit. Sie konnte beginnen. Rebeccas Reise ins Unbekannte.
+        Ihre Reise nach Athen.
+        <br/><br/>
+        Es war weit mehr als nur ein Städtetrip. Es war der Ruf ihrer inneren Stimme, dem sie einfach folgen musste.
+        <br/><br/> 
+        Aufgeregt nahm Rebecca den Speed der Maschine wahr, als diese startete. Sie war schon so
+        oft geflogen, doch niemals war das Bauchkribbeln so stark wie an diesem Tag.
+        <br/><br/>
+        Doch woher kam dieses Kribbeln? War es nur der Startvorgang des Fliegers oder hatte diese Nervosität
+        noch einen ganz anderen Grund?
+        <br/><br/>
+        Ja! Sie war auf dem Weg zu einem Mann, mit dem sie Monate zuvor einen einzigen Abend verbracht hatte.
+        Nur diesen einen Abend. Diese eine Nacht.
+        <br/><br/>
+        Doch war dieser Jemand doch auch gleichzeitig der Mann, der seit diesem Tag in Kontakt mit ihr stand.
+        Er war ihr so nah, so vertraut. Ein Fremder, der ihr nicht eine Sekunde fremd war.
+        <br/><br/>
+        Ein anderes Land, eine andere Mentalität, verschiedene Sprachen, Kommunikation nur auf Englisch möglich.
+        <br/><br/>
+        Manchmal konnte sie gar nicht genau verstehen, was er sagte und gleichzeitig hatte sie noch nie jemanden
+        so gut verstehen können, sich verstanden gefühlt. All diese unsinnigen Gedanken schienen von einer
+        Sekunde auf die andere Sinn zu machen.
+        <br/><br/>
+        Andreas, das war sein Name. Andreas, ledig, kinderlos.
+        <br/><br/>
+        Rebecca, schon einmal verheiratet, 3 Kinder.
+        <br/><br/>
+        Griechisch, deutsch. Die beiden waren so gegensätzlich, die beiden waren so gleich.
+        <br/><br/>
+        10:30 Uhr ( griechische Zeit)
+        <br/><br/>
+        Der Flieger setzte zur Landung an. Weich, geschmeidig.
+        <br/><br/>
+        Auf dem Weg zur Gepäckausgabe erreichte das Kribbeln in der Bauchgegend seinen Höhepunkt und
+        verwandelte sich mehr und mehr in eine ganze Schmetterlingskolonie, die dort innen herumschwirrte.
+        Sie war niemand, der schnell ins Schwitzen kam oder sich irgendwelche Gedanken um ihren Körpergeruch
+        hätte machen müssen. Nie…Bis jetzt.
+        <br/><br/>
+        Schwitzige Hände, schlackernde Knie, Mutantenschmetterlinge im Bauch und der nicht aufhörende Drang,
+        zur Toilette zu gehen.
+        <br/><br/>
+        Voller Hoffnung, ihr Koffer möge doch bitte der letzte sein, den die Ausgabe ausspucken würde, war es
+        natürlich der allererste, der auf dem Band zu sehen war.
+        <br/><br/>
+        "Ok Rebecca. Eine einzige Tür. Eine Tür ist alles, was euch jetzt noch trennt. Geh…!" Zaghaft. Zwei
+        kleine Schritte. Sie wusste nicht, dass sie mit ihren langen Beinen solch kleine Schritte machen konnte.
+        "Geh!" Erneut sprach sie zu ihr. Diese leise, innere Stimme, ihre ihr immer vertrauter werdende Intuition.
+        Doch eine Stimme zu hören oder auf sie zu hören. Dazwischen können Welten liegen. "Du bist diesen ganzen
+        Weg nach Athen geflogen. Du hast alles organisiert. Und jetzt? Du willst kneifen? Manchmal frage ich mich
+        wirklich, warum ich ausgerechnet deine Intuition werden musste. Du bist hier. Du bleibst! Geh!"
+        <br/><br/>
+        Gesagt, getan. Die Tür öffnete sich. Verlegen, spürend wie ihr Gesicht errötete, hob Rebecca ihren Kopf,
+        um Ausschau zu halten. Hoffentlich würde sie ihn überhaupt wieder erkennen. Und er sie. Hoffentl…………
+        <br/><br/>
+        Da war er. Andreas. Freudig grinsend hob er verschmitzt die rechte Augenbraue, während er auf sie zukam.
+        Und wieder vernahm sie, was  schon beim 1. Date in ihr aufkam. Da war dieser große erwachsene Mann, mit
+        dem Blick eines kleinen Jungen am Weihnachtsabend . Strahlende Augen und das sympathischste  Lächeln, das
+        sie je gesehen hatte.
+        <br/><br/>
+        Nun hatte es also begonnen. Das Märchen in Athen.
+        <br/>
+        . . . .
+      </div>
+    </section>
+
+    <p class="footer"> &copy; 2020 IWriteYourStory.de</p>
+    <p class="footer" style="font-size: 14px;" > Created by:
+      <a class="footer" style="font-size: 14px;" href="mailto:web.amoni@gmail.com">Amoni</a>
+    </p>
+
+		<script src="./../js/burger.js"></script>
+	</body>
+</html>

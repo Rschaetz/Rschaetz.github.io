@@ -56,7 +56,7 @@
   .current-item::after {
     position: absolute;
     content: '';
-    bottom: -5px;
+    bottom: 5px;
     left: 0;
     background-color: #f66e5e;
     height: 2px;
@@ -66,11 +66,15 @@
 
   .item-alt {
     color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 0;
+    display: inline-block;
   }
 
   .main-item {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding: 8px 0;
     display: inline-block;
@@ -78,7 +82,7 @@
   
   .item {
     color: #484848;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding: 8px 0;
     display: inline-block;
@@ -88,14 +92,29 @@
     color: #f66e5e;
   }
   
-  .item:hover::after {
+  .item:hover::after, .item-alt:hover::after {
     position: absolute;
     content: '';
-    bottom: -5px;
+    bottom: 5px;
     left: 0;
     background-color: #f66e5e;
     height: 2px;
     width: 60%;
     transition: .2s;
+  }
+}
+
+@media only screen and( min-width: 768px){
+  .main-item {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 990px){
+  .nav-items {
+    margin-right: 50px;
+  }
+  .item, .item-alt {
+    font-size: 16px;
   }
 }

@@ -40,4 +40,48 @@ a:visited {
   text-align: center;
   font-family: Quicksand;
   color: #7a7a7a;
+  font-size: 14px;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.text{
+  font-family: "Quicksand";
+  color: #7a7a7a;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.poem {
+  font-family: "Quicksand";
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 2.6em;
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+@media only screen and (min-width: 425px) {
+  .poem {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer{
+    font-size: 16px;
+  }
+  .text, .poem{
+    letter-spacing: 1px;
+  }
+
+  .poem {
+    font-size: 18px;
+  }
 }

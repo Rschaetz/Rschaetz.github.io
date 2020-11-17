@@ -4,7 +4,6 @@ if (typeof (window.Layout) == "undefined") {
 
 (function (Layout) {
 
-  //return
   Layout.Init = Init;
 
   function Init() {
