@@ -55,6 +55,37 @@
   top: -9px;
 }
 
+.arrow-down::after {
+  content: "\f078";
+  font-family: 'FontAwesome';
+  color: #383838;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.arrow-up::after {
+  content: "\f077";
+  font-family: 'FontAwesome';
+  color: white;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.mainNav {
+  opacity: 0;
+}
+
+.mainNav.open{
+  opacity: 1;
+}
+
+.mainNav > ul > li > {
+  opacity: 0
+}
+.mainNav.open > ul > li > {
+  opacity: 1
+}
+
 .mainNav ul {
   padding:0px;
   margin:0px;
@@ -87,22 +118,6 @@
 
 .mainNav li a:hover {
   color: white;
-}
-
-.arrow-down::after {
-  content: "\f078";
-  font-family: 'FontAwesome';
-  color: #383838;
-  font-size: 12px;
-  margin-left: 5px;
-}
-
-.arrow-up::after {
-  content: "\f077";
-  font-family: 'FontAwesome';
-  color: white;
-  font-size: 12px;
-  margin-left: 5px;
 }
 
 .mainNav li .node {
