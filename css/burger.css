@@ -79,13 +79,9 @@
   opacity: 1;
 }
 
-.mainNav > ul > li + ul {
+.mainNav > ul > li > ul {
   opacity: 0
 }
-.mainNav > ul > li .toggle.open + ul {
-  opacity: 1
-}
-
 
 .mainNav ul {
   padding:0px;
@@ -154,6 +150,7 @@
 }
 .mainNav > ul > li .toggle.open + ul {
   background-color: #f3f3f3;
+  opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
